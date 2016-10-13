@@ -1,0 +1,116 @@
+.icon-sprite, .icon-aim, .icon-aka, .icon-art, .icon-chef, .icon-fb, .icon-ig, .icon-music, .icon-rip, .icon-twitter, .icon-vine {
+  background-image: url('../img/icon-s9421524303.png');
+  background-repeat: no-repeat;
+}
+
+.icon-aim {
+  background-position: 0 -70px;
+}
+.icon-aim:hover, .icon-aim.aim-hover {
+  background-position: 0 0;
+}
+
+.icon-aka {
+  background-position: 0 -210px;
+}
+.icon-aka:hover, .icon-aka.aka-hover {
+  background-position: 0 -140px;
+}
+
+.icon-art {
+  background-position: 0 -350px;
+}
+.icon-art:hover, .icon-art.art-hover {
+  background-position: 0 -280px;
+}
+
+.icon-chef {
+  background-position: 0 -490px;
+}
+.icon-chef:hover, .icon-chef.chef-hover {
+  background-position: 0 -420px;
+}
+
+.icon-fb {
+  background-position: 0 -630px;
+}
+.icon-fb:hover, .icon-fb.fb-hover {
+  background-position: 0 -560px;
+}
+
+.icon-ig {
+  background-position: 0 -770px;
+}
+.icon-ig:hover, .icon-ig.ig-hover {
+  background-position: 0 -700px;
+}
+
+.icon-music {
+  background-position: 0 -910px;
+}
+.icon-music:hover, .icon-music.music-hover {
+  background-position: 0 -840px;
+}
+
+.icon-rip {
+  background-position: 0 -1050px;
+}
+.icon-rip:hover, .icon-rip.rip-hover {
+  background-position: 0 -980px;
+}
+
+.icon-twitter {
+  background-position: 0 -1190px;
+}
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -1120px;
+}
+
+.icon-vine {
+  background-position: 0 -1330px;
+}
+.icon-vine:hover, .icon-vine.vine-hover {
+  background-position: 0 -1260px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+nav {
+  background: rgba(225, 225, 225, 0.5);
+  display: inline-block;
+  border-left: 3px;
+  padding: 0 0.5em;
+}
+nav li {
+  list-style: none;
+  display: block;
+  padding: 0px;
+}
+nav li a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+nav li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  font-family: Shrikhand;
+  height: 60px;
+}
+
+body {
+  background: url("../img/spritebackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

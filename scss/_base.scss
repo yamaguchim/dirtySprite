@@ -1,0 +1,69 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+// icon settings
+i {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+nav{
+	background: rgba(225,225,225,.5);
+	display: inline-block; 
+	border-left: 3px; 
+	padding: 0 0.5em;
+	// margin: 0 1em 3px 1em;  
+	// margin-bottom: 1px; 
+	li {
+	list-style:none;
+	display: block;
+	padding: 0px;
+		a {
+		  display: inline-block;
+		  width: 70px;
+		  height: 70px;
+		 	span {
+		  		position: absolute;
+		  		top: -9999em;
+		  		left: -9999em;
+		  	}//span
+		}//a
+	}//li
+}
+
+
+// li {
+// 	list-style:none;
+// 	display: inline-block;
+// 	padding: 10px;
+// 		a {
+// 		  display: inline-block;
+// 		  width: 100px;
+// 		  height: 100px;
+// 		  span {
+// 		  	position: absolute;
+// 		  	top: -9999em;
+// 		  	left: -9999em;
+// 		  }//span
+// 	}//a
+// }//li
+
+//header settings 
+header { 
+	h1{
+		font-weight: bold; 
+		font-size: 80px;
+		color: white; 
+		font-family: Shrikhand; 
+		height: 60px; 
+	}
+}
+
+//background 
+body{
+  background: url('../img/spritebackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
