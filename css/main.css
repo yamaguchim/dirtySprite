@@ -79,29 +79,66 @@ i {
   display: inline-block;
 }
 
-nav {
-  background: rgba(225, 225, 225, 0.5);
-  display: inline-block;
+#nav {
+  position: absolute;
+  top: 60px;
+  margin-top: 0.5em;
+  left: 1;
+  width: 134px;
+}
+
+#nav ul {
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav ul a {
+  display: block;
   border-left: 3px;
   padding: 0 0.5em;
+  margin: 0 1em 3px 1em;
 }
-nav li {
+#nav ul a li {
   list-style: none;
   display: block;
   padding: 0px;
 }
-nav li a {
+#nav ul a li a {
   display: inline-block;
   width: 70px;
   height: 70px;
 }
-nav li a span {
+#nav ul a li a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
 }
 
-header h1 {
+#content {
+  border-left: 134px solid #069;
+  background: white;
+  padding: 1px 20px 1em 40px;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+#container {
+  position: relative;
+  width: 580px;
+  border-width: 0 3px;
+  margin: auto;
+}
+
+.accessaid, h1 {
+  position: absolut;
+  height: 0;
+  overflow: hidden;
+}
+
+#header h1 {
   font-weight: bold;
   font-size: 80px;
   color: white;
@@ -113,4 +150,6 @@ body {
   background: url("../img/spritebackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font: 80% Delius;
+  margin: 0;
 }
