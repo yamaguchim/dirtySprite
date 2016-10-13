@@ -79,71 +79,17 @@ i {
   display: inline-block;
 }
 
-#nav {
-  position: absolute;
-  top: 60px;
-  margin-top: 0.5em;
-  left: 1;
-  width: 134px;
-}
-
-#nav ul {
-  margin: 0 0 1em 0;
-  padding: 0;
-  list-style: none;
-}
-
-#nav ul a {
-  display: block;
-  border-left: 3px;
-  padding: 0 0.5em;
-  margin: 0 1em 3px 1em;
-}
-#nav ul a li {
-  list-style: none;
-  display: block;
-  padding: 0px;
-}
-#nav ul a li a {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-}
-#nav ul a li a span {
-  position: absolute;
-  top: -9999em;
-  left: -9999em;
-}
-
-#content {
-  border-left: 134px solid #069;
-  background: white;
-  padding: 1px 20px 1em 40px;
-}
-
-h2 {
-  font-size: 1.25em;
-}
-
-#container {
-  position: relative;
-  width: 580px;
-  border-width: 0 3px;
-  margin: auto;
-}
-
-.accessaid, h1 {
-  position: absolut;
-  height: 0;
-  overflow: hidden;
-}
-
-#header h1 {
-  font-weight: bold;
-  font-size: 80px;
+.gold {
+  font-weight: bolder;
+  font-size: 100px;
+  font-family: Patua One;
+  text-align: center;
   color: white;
-  font-family: Shrikhand;
-  height: 60px;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent), url(https://66.media.tumblr.com/3d62cb26f43fd3709808b407a8e3e98c/tumblr_n6m57ijREH1rr2wv3o1_500.jpg) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  margin-bottom: -25px;
 }
 
 body {
@@ -152,4 +98,58 @@ body {
   background-repeat: no-repeat;
   font: 80% Delius;
   margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 60px;
+}
+
+.box-set,
+.box1
+.box {
+  border-radius: 6px;
+}
+
+.box-set {
+  background: rgba(225, 225, 225, 0.2);
+}
+
+.box {
+  background: rgba(225, 225, 225, 0.2);
+  float: left;
+  margin: 1.858736059%;
+  padding: 20px 0;
+  text-align: left;
+  width: 9.615861214%;
+}
+.box nav {
+  display: inline-block;
+  border-left: 3px;
+  border-right: 3px;
+  padding: 0 0.5em;
+}
+.box nav li {
+  list-style: none;
+  display: block;
+  padding: 0px;
+}
+.box nav li a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+.box nav li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+.box1 {
+  background: rgba(225, 225, 225, 0.3);
+  float: left;
+  margin: 1.858736059%;
+  padding: 20px 0;
+  text-align: center;
+  width: 73.615861214%;
 }
